@@ -1,0 +1,19 @@
+/* full webpage formatting*/
+body{
+    background-color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:midnightblue;
+    line-height: 1.5;
+    margin:0px;
+    padding: 15px;
+
+}
+/* header formatting */
+h1{
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+}
+nav{
+    flex-wrap: wrap;
+}
