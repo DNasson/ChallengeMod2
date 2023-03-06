@@ -8,12 +8,25 @@ body{
     padding: 15px;
 
 }
-/* header formatting */
+header{
+    
+
+}
+/* name formatting */
 h1{
     display: inline;
     text-align: center;
     font-weight: bold;
+    font-size: 65px;
+    
+/* nav formatting */
 }
 nav{
+    display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: turquoise;
+    justify-content: space-evenly;
+    font-size: 27px;
 }
