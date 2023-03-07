@@ -26,22 +26,34 @@ nav {
     justify-content: space-evenly;
     font-size: 27px;
 }
-
+/* image size and border */
 img {
-    width: 400px;
+    width: 35%;
     border: 5px;
     border-color: black;
     border-style: solid;
 }
-
+/* float avatar to right of text, 25% size */
 #avatar {
     float:right;
     width: 25%;
 }
-
+/* contact me information is formatted together in a line */
 address {
     font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+}
+/* place all work on the same line */
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/* make study guide picture bigger */
+#studyguide {
+    width: 70%;
 }
