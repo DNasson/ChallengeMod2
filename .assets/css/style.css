@@ -8,10 +8,6 @@ body{
     padding: 15px;
 
 }
-header{
-    
-
-}
 /* name formatting */
 h1{
     display: inline;
@@ -21,7 +17,7 @@ h1{
     
 /* nav formatting */
 }
-nav{
+nav {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -32,9 +28,13 @@ nav{
 }
 
 img {
-    width: 500px;
+    width: 400px;
     border: 5px;
     border-color: black;
     border-style: solid;
 }
 
+#avatar {
+    float:right;
+    width: 25%;
+}
