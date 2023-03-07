@@ -32,6 +32,9 @@ nav{
 }
 
 img {
-    width: 500px;;
+    width: 500px;
+    border: 5px;
+    border-color: black;
+    
 
 }
