@@ -38,3 +38,10 @@ img {
     float:right;
     width: 25%;
 }
+
+address {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
